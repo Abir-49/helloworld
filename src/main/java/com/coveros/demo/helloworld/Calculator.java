@@ -13,12 +13,12 @@ public class Calculator {
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero is not allowed.");
         }
+
         return a / (double)b;//master version
+        return (double)a / b;
     }
     public int modulus(int a, int b) {
         return a % b;
     }
 }
- {
-    
-}
+
